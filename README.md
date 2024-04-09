@@ -48,7 +48,7 @@ The application should now be running and accessible via http://localhost:5173 i
 
 
 ### Built With
-**React** - The web framework used
-**TypeScript** - For adding type safety to the code
-**Tailwind CSS** - For styling the application
+- **React** - The web framework used
+- **TypeScript** - For adding type safety to the code
+- **Tailwind CSS** - For styling the application
 
