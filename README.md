@@ -28,3 +28,27 @@ Before you begin, ensure you have the following tools installed:
 
 ```bash
 git clone https://yourrepositorylink.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd personal-budget-tracker
+```
+3. Install the necessary dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+The application should now be running and accessible via http://localhost:5173 in your browser.
+
+
+### Built With
+**React** - The web framework used
+**TypeScript** - For adding type safety to the code
+**Tailwind CSS** - For styling the application
+
