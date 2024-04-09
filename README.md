@@ -1,31 +1,30 @@
-# React + TypeScript + Vite
+# Personal Budget Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet powerful web application built with React, TypeScript, and Tailwind CSS that helps users manage their personal finances by tracking income and expenses.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Add Transactions**: Users can easily add income and expense transactions, including details like amount, category, and date.
+- **View Transactions**: All transactions are listed in reverse chronological order, with the latest additions shown first.
+- **Delete Transactions**: Users can remove transactions they no longer wish to track.
+- **Edit Transactions**: Users can update the description of their transactions.
+- **Expenses by Category**: View a breakdown of expenses by category, helping users understand their spending habits.
+- **Responsive Design**: Built with mobile-first design principles in mind, ensuring a seamless experience across all devices.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-- Configure the top-level `parserOptions` property like this:
+### Prerequisites
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Before you begin, ensure you have the following tools installed:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# budget-finance
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://yourrepositorylink.git
